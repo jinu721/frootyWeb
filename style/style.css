@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(240, 145, 48);
+}
+.linkTag span {
+  color: #0a0b27;
+}
+
+body {
+  overflow-x: hidden;
+}
+.navbar {
+  background-color: #0a0b27;
+}
+.roww-1 {
+  display: flex;
+  align-items: center;
+  height: 600px;
+}
+.rotate-image {
+  width: 136px;
+  height: 372px;
+}
+.hover:hover {
+  color: red !important;
+  transition: 0.4s;
+}
+
+.roww-1 .rotating-head {
+  position: absolute;
+  top: center;
+  left: 18vw;
+  color: white;
+  text-align: center;
+  font-size: 80px!;
+  font-weight: 900;
+  font-family: "EksellDisplayWeb-Small";
+  z-index: 100;
+}
+
+.description p {
+  padding: 30px;
+  font-size: 24px;
+}
+
+.footernav img {
+  width: 20px;
+  height: 20px;
+}
+
+.footernav a {
+  color: rgb(0, 0, 0);
+}
+.footernav {
+  width: 200px;
+  height: 52px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.img-fluid{
+  width: 100%;
+}
+
+.spinner-img{
+  width: 500px;
+  height: 200px;
+}
+
+.footernav img:hover {
+  width: 25px;
+  height: 25px;
+  transition: 0.4ms;
+  transform-style: preserve-3d;
+}
+address a {
+  text-decoration: none;
+}
+address span {
+  color: black;
+  font-weight: bold;
+}
+address span:hover {
+  color: red;
+  transition: 0.3s;
+}
+.footer {
+  margin: 30px;
+}
+
+@media (min-width: 1200px) {
+  .roww-1 .rotating-head {
+    left: 19vw;
+  }
+  .rotate-image {
+    width: 150px;
+    height: 250px;
+    right: 10%;
+  }
+}
+@media (max-width: 1200px) {
+  .description {
+    font-size: 15px;
+  }
+  .rotate-image {
+    width: 130px;
+    height: 230px;
+    right: 11%;
+  }
+}
+
+@media (max-width: 992px) {
+  .rotate-image {
+    width: 120px;
+    height: 220px;
+    right: 9%;
+  }
+  .roww-1 .rotating-head {
+    left: 40vw;
+  }
+  .footer row {
+    font-size: 20px;
+    padding: 50px;
+  }
+}
+@media (max-width: 792px) {
+  .rotate-image {
+    width: 100px;
+    height: 200px;
+    right: 9.5%;
+  }
+  .roww-1 .rotating-head {
+    left: 40vw;
+  }
+}
+@media (max-width: 576px) {
+  .rotate-image img {
+    width: 60px;
+    height: 160px;
+    margin-right: 40px;
+  }
+  .roww-1 .rotating-head {
+    left: 37.5vw;
+  }
+  .roww-1 {
+    height: 400px;
+  }
+}
